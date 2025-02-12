@@ -1,12 +1,9 @@
 import { createGlobalStyle } from 'styled-components'
 
-const GlobalStyles = createGlobalStyle`
+export const GlobalStyle = createGlobalStyle`
   :root {
     --cor-principal: #a7727d;
     --cor-secundaria: #f9f5e7;
-    --cor-texto: #333333;
-    --cor-borda: #cccccc;
-    --cor-hover: #8b5d65;
   }
 
   * {
@@ -33,5 +30,3 @@ const GlobalStyles = createGlobalStyle`
     }
   }
 `
-
-export default GlobalStyles
